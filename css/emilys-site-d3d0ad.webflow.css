@@ -89,6 +89,10 @@
   overflow: hidden;
 }
 
+.content-block .pb{
+  padding-bottom: 2rem;
+}
+
 .content-block.credit {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -719,11 +723,16 @@
   height: 100%;
 }
 
-.nightinggale-logo {
-  width: 172px;
-  margin-bottom: 20px;
-  position: absolute;
-  inset: 5vh auto auto;
+.heading-img{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+
+  .nightingale-logo {
+    width: 172px;
+    position: absolute;
+    inset: 5vh auto auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
